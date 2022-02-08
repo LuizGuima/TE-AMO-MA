@@ -6,13 +6,15 @@
 }
 
 body{
-    background: #46237A;
+    background-image: url(wall.jpg);
+    background-size: 100%;
 }
 
 h1,h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 .tudo{
     display: grid;
