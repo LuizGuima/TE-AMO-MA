@@ -6,12 +6,21 @@
 }
 
 body{
+    background: #46237A;
+}
+
+h1,h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background: #46237A;
 }
+.tudo{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
 
 .container{
     position: relative;

@@ -9,55 +9,59 @@
     <link rel="stylesheet" href="card2.css">
     <link rel="stylesheet" href="card3.css">
     <link rel="stylesheet" href="style.css">
+    <audio autoplay>
+        <source src="ma.mp3" type="audio/mp3">
+      </audio>
     
 </head>
 <body>
-    <div class="container">
-        <div class="card1">
-            <div class="content">
-                <h2>01</h2>
-                <h3>Card Um</h3>
-                <p>Amo o seu sorriso quando eu digo que você é a coisa mais especial do mundo pra mim</p>
-                <a href="#">Mais informações</a>
+    <h1>Feliz Aniversário Ma !!!!!</h1>
+    <h2>Aqui estão 3 motivos que me fazem saber todo dia que você é o a mor da minha vida</h2>
+    <div class="tudo">
+        <div class="container">
+            <div class="card1">
+                <div class="content">
+                    <h2>01</h2>
+                    <h3>Motivo 1</h3>
+                    <p>Amo o seu sorriso quando eu digo que você é a coisa mais especial do mundo pra mim</p>
+                </div>
+            </div>
+            <div class="card2">
+                <div class="content">
+                    <h2>02</h2>
+                    <h3>Motivo 2</h3>
+                    <p>Amo o seu sorriso quando eu digo que você é a coisa mais especial do mundo pra mim</p>
+                </div>
+            </div>
+            <div class="card3">
+                <div class="content">
+                    <h2>03</h2>
+                    <h3>Motivo 3</h3>
+                    <p>Amo o seu sorriso quando eu digo que você é a coisa mais especial do mundo pra mim</p>
+                </div>
             </div>
         </div>
-        <div class="card2">
-            <div class="content">
-                <h2>02</h2>
-                <h3>Card DOIS</h3>
-                <p>LUIZ TOP</p>
-                <a href="#">Mais informações</a>
-            </div>
-        </div>
-        <div class="card3">
-            <div class="content">
-                <h2>03</h2>
-                <h3>Card TRêS</h3>
-                <p>LUIZ TOP</p>
-                <a href="#">Mais informações</a>
-            </div>
-        </div>
+        <script type="text/javascript" src="script.js"></script>
+        <script>
+            VanillaTilt.init(document.querySelectorAll(".card1"),{
+                max:25,
+                speed: 400,
+                glare: true,
+                "max-glare":1 
+            })
+            VanillaTilt.init(document.querySelectorAll(".card2"),{
+                max:25,
+                speed: 400,
+                glare: true,
+                "max-glare":1 
+            })
+            VanillaTilt.init(document.querySelectorAll(".card3"),{
+                max:25,
+                speed: 400,
+                glare: true,
+                "max-glare":1 
+            });
+        </script>
     </div>
-    <script type="text/javascript" src="script.js"></script>
-    <script>
-        VanillaTilt.init(document.querySelectorAll(".card1"),{
-            max:25,
-            speed: 400,
-            glare: true,
-            "max-glare":1 
-        })
-        VanillaTilt.init(document.querySelectorAll(".card2"),{
-            max:25,
-            speed: 400,
-            glare: true,
-            "max-glare":1 
-        })
-        VanillaTilt.init(document.querySelectorAll(".card3"),{
-            max:25,
-            speed: 400,
-            glare: true,
-            "max-glare":1 
-        });
-    </script>
 </body>
 </html>
