@@ -6,8 +6,8 @@
 }
 
 body{
-    background-image: url(wall.jpg);
-    background-size: 100%;
+    background-image: url(wall.jpeg);
+
 }
 
 h1,h2{
@@ -16,11 +16,14 @@ h1,h2{
     align-items: center;
     color: white;
 }
+h1{
+    margin-top: 205px 
+}
 .tudo{
     display: grid;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 50vh;
 }
 
 
